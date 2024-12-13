@@ -29,6 +29,15 @@ p {
   padding-left: 0;
 }
 
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+address {
+  font-style: normal;
+}
+
 img {
   display: block;
   max-width: 100%;
