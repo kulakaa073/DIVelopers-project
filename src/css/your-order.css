@@ -1,0 +1,118 @@
+.order-section {
+  background-color: #576f35;
+}
+/* Тимчасово поставила */
+.order-section.container {
+  padding: 80px 20px;
+}
+.order-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+.accent-text-pink {
+  color: #d4bfc4;
+}
+.order-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+.order-form {
+  border-radius: 30px;
+  padding: 40px 20px;
+  width: 335px;
+  height: 552px;
+  background: #fbfbfb;
+  margin-bottom: 20px;
+}
+.form-description {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.accent-text-red {
+  color: #7a3145;
+}
+.accent-text-green {
+  color: #576f35;
+}
+.input-wrapper {
+}
+.form-input,
+.form-textarea {
+  border: 1px solid #858585;
+  border-radius: 30px;
+  padding: 16px;
+  width: 295px;
+  height: 48px;
+  margin-bottom: 16px;
+  background-color: transparent;
+}
+.form-input::placeholder,
+.form-textarea::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  text-align: left;
+  color: #141414;
+}
+.form-textarea {
+  width: 295px;
+  height: 92px;
+  border-radius: 15px;
+  resize: none;
+}
+.order-btn {
+  border-radius: 30px;
+  padding: 16px 129px;
+  width: 295px;
+  height: 52px;
+  background: #7a3145;
+  border: none;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+.order-socials-wrapper {
+  padding: 40px 20px;
+  background: #7a3145;
+  border-radius: 30px;
+}
+.order-socials-img {
+  border-radius: 15px;
+  width: 295px;
+  height: 272px;
+  background: rgba(20, 20, 20, 0.2);
+  margin-bottom: 20px;
+}
+
+.socials-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #d4bfc4;
+  padding-bottom: 16px;
+}
+.socials-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  text-decoration: none;
+}
