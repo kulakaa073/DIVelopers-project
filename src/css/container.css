@@ -3,13 +3,13 @@
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 80px 0;
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 100px;
+    padding: 100px 0;
   }
 }
 /* Styles for Desktop devices */
