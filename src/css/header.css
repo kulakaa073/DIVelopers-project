@@ -37,16 +37,11 @@
 .header-container {
   display: flex;
   align-items: center;
-  padding: 20px 20px 0;
+  padding-top: 20px;
 }
 @media only screen and (min-width: 768px) {
   .header-container {
-    padding: 32px 32px 0;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .header-container {
-    padding: 32px 100px;
+    padding-top: 32px;
   }
 }
 .header-nav {
