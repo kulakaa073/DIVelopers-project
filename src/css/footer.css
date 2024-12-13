@@ -1,70 +1,3 @@
-/* #region Reset  */
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Inter Tight, sans-serif;
-    color: #141414;
-    background-color: #fbfbfb;
-}
-
-ul,
-ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-p {
-    margin: 0;
-    padding-left: 0;
-}
-
-a {
-    text-decoration: none;
-    /* Прибирає підкреслення */
-    color: inherit;
-    /* Успадковує колір тексту від батьківського елемента */
-    font: inherit;
-    /* Успадковує шрифт від батьківського елемента */
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    outline: 0;
-    outline-offset: 0;
-}
-
-/* #endregion */
-
-
-
 
 .page-footer {
     background-color: #7a3145;
@@ -100,8 +33,6 @@ img {
 }
 
 .footer-text {
-    font-family: "Inter Tight",
-        sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.43;
@@ -125,7 +56,6 @@ img {
 }
 
 .nav-footer-link {
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
@@ -147,15 +77,13 @@ img {
 }
 
 .contacts-link{
-font-family: "Inter Tight",
-        sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.43;
     color: #fbfbfb;
 }
 
-.contacts-link:active {
+.contacts-link:focus {
     color: #d4bfc4;
 }
 
@@ -171,15 +99,23 @@ font-family: "Inter Tight",
         flex-wrap: wrap;
         gap: 8px;
         margin-bottom: 16px;
-        font-family: "Inter Tight", sans-serif;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.43;
-            color: #d4bfc4;
+}
+
+.privacy-policy-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #d4bfc4;
+}
+
+.privacy-policy-span{
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #d4bfc4;
 }
 
 .copyright-name{
-    font-family: "Inter Tight", sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.43;
