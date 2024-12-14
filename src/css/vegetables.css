@@ -62,6 +62,7 @@
 
 .vegetables-list{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 
@@ -70,6 +71,7 @@
 
 @media only screen and (min-width: 768px){
     .vegetables-list{
+        gap: 28px 24px;
         padding: 52px 0;
     }
 }
@@ -116,4 +118,7 @@
 
 .vegetables-picture{
     padding-top: 12px;
+
+    justify-content: center;
+    align-items: center;
 }
