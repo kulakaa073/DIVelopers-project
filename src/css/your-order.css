@@ -1,9 +1,10 @@
 .order-section {
   background-color: #576f35;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-/* Тимчасово поставила */
+
 .order-section.container {
-  padding: 80px 20px;
 }
 .order-title {
   font-weight: 600;
@@ -12,6 +13,7 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  margin-bottom: 20px;
 }
 .accent-text-pink {
   color: #d4bfc4;
@@ -26,8 +28,8 @@
 .order-form {
   border-radius: 30px;
   padding: 40px 20px;
-  width: 335px;
-  height: 552px;
+  max-width: 335px;
+  min-height: 552px;
   background: #fbfbfb;
   margin-bottom: 20px;
 }
@@ -52,7 +54,7 @@
   border: 1px solid #858585;
   border-radius: 30px;
   padding: 16px;
-  width: 295px;
+  min-width: 100%;
   height: 48px;
   margin-bottom: 16px;
   background-color: transparent;
@@ -66,15 +68,30 @@
   color: #141414;
 }
 .form-textarea {
-  width: 295px;
   height: 92px;
   border-radius: 15px;
   resize: none;
 }
+
+.form-input:focus,
+.form-input:active,
+.form-input:hover,
+.form-textarea:focus,
+.form-textarea:active,
+.form-textarea:hover {
+  border: 1px solid #7a3145;
+}
+.form-input:not(:placeholder-shown):invalid {
+  border: 1px solid #e74a3b;
+}
+
+.form-input:not(:placeholder-shown):valid {
+  border: 1px solid #3cbc81;
+}
+
 .order-btn {
   border-radius: 30px;
-  padding: 16px 129px;
-  width: 295px;
+  min-width: 100%;
   height: 52px;
   background: #7a3145;
   border: none;
@@ -86,6 +103,7 @@
   text-transform: uppercase;
   color: #fbfbfb;
 }
+
 .order-socials-wrapper {
   padding: 40px 20px;
   background: #7a3145;
@@ -93,8 +111,6 @@
 }
 .order-socials-img {
   border-radius: 15px;
-  width: 295px;
-  height: 272px;
   background: rgba(20, 20, 20, 0.2);
   margin-bottom: 20px;
 }
@@ -106,13 +122,21 @@
   color: #d4bfc4;
   padding-bottom: 16px;
 }
+.socials-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
 .socials-link {
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.11;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
-  text-decoration: none;
+}
+
+.socials-diagonal {
+  margin-left: 8px;
 }

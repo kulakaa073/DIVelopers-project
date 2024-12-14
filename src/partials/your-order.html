@@ -7,12 +7,12 @@
     anyone looking to eat healthier or support local farmers. Order your box
     today and start enjoying the best that nature has to offer!
   </p>
-  <form action="" class="order-form">
+  <form action="non-empty" class="order-form">
     <p class="form-description">
       Ordering <span class="accent-text-red">from us</span> is quick and easy!
       Fill out
       <span class="accent-text-green">the form</span>
-      below and we will contact you !
+      below and we will contact you&nbsp;!
     </p>
     <div class="input-wrapper">
       <input
@@ -20,8 +20,8 @@
         type="text"
         name="user-name"
         placeholder="Full Name"
-        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-        )
+        pattern="([A-Z][a-z]{1,} )([A-Z][a-z]{1,} )?([A-Z][a-z]{1,})"
+        aria-label="full name"
         required
       />
     </div>
@@ -32,7 +32,7 @@
         name="email"
         placeholder="Email"
         pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-        )
+        aria-label="email"
         required
       />
     </div>
@@ -42,8 +42,6 @@
         name="user-comment"
         id="user-comment"
         placeholder="Comment"
-        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-        )
       ></textarea>
     </div>
     <button class="order-btn" type="submit">Send</button>
@@ -65,16 +63,28 @@
       <img
         src="../img/order-mobile@1x.jpg"
         alt="squeezing a lemon into a bottle on a kitchen counter"
-        width="295"
-        height="272"
+        width="458"
+        height="352"
         class="order-socials-img"
       />
     </picture>
     <p class="socials-text">Follow us on our social networks:</p>
-    <a class="socials-link" href="https://www.instagram.com/goitclub/"
-      >instagram /</a
-    ><a class="socials-link" href="https://www.facebook.com/goITclub/">
-      facebook / </a
-    ><a class="socials-link" href="https://www.youtube.com/c/GoIT">youtube</a>
+    <ul class="socials-list">
+      <li>
+        <a class="socials-link" href="https://www.instagram.com/goitclub/"
+          >instagram <span class="socials-diagonal">/</span>
+        </a>
+      </li>
+      <li>
+        <a class="socials-link" href="https://www.facebook.com/goITclub/">
+          facebook <span class="socials-diagonal">/</span>
+        </a>
+      </li>
+      <li>
+        <a class="socials-link" href="https://www.youtube.com/c/GoIT">
+          youtube</a
+        >
+      </li>
+    </ul>
   </div>
 </section>
