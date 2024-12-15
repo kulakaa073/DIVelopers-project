@@ -115,6 +115,7 @@
   .hero-inner {
     display: flex;
     flex-direction: row;
+    height: 796px;
   }
 
   .hero-title {
@@ -132,7 +133,7 @@
     background-image: url(../img/hero-desktop@1x.jpg);
     background-attachment: scroll;
     min-width: 50%;
-    height: 802px;
+    height: 796px;
     width: 50%;
   }
 
