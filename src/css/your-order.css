@@ -128,20 +128,21 @@
   color: #576f35;
 }
 
-.form-input,
-.form-textarea {
+.form-field {
   border: 1px solid #858585;
   border-radius: 30px;
   padding: 16px;
   min-width: 100%;
-  height: 48px;
-  margin-bottom: 16px;
   background-color: transparent;
 }
 
+.form-input {
+  height: 48px;
+  margin-bottom: 16px;
+}
+
 @media only screen and (min-width: 768px) {
-  .form-input,
-  .form-textarea {
+  .form-input {
     height: 52px;
   }
 }
