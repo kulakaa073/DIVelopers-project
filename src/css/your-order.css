@@ -277,13 +277,3 @@
   text-transform: uppercase;
   color: #fbfbfb;
 }
-
-.socials-diagonal {
-  margin-left: 8px;
-}
-
-@media only screen and (min-width: minwidthpx) {
-  .socials-diagonal {
-    margin-left: 12px;
-  }
-}
