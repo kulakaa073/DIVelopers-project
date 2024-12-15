@@ -126,16 +126,14 @@
   }
 
   .hero-image {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url(../img/hero-desktop@1x.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; /* Залиште 'cover' для адаптивності */
-    min-height: 800px;
-    width: 100%; /* Додайте цю властивість */
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../img/hero-desktop@1x.jpg);
+    background-attachment: scroll;
+    min-width: 50%;
+    height: 802px;
+    width: 50%;
   }
 
   @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
