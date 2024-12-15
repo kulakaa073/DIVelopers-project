@@ -1,24 +1,23 @@
-
 .adver {
   background-color: #fbfbfb;
-display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .adver-txt {
-    font-family: Inter Tight ;
+  font-family: Inter Tight, sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 52px;
   letter-spacing: -0.015em;
-max-width: 335px;
+  max-width: 335px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #141414;
   margin: 80px auto;
-text-transform: uppercase;
-
+  text-transform: uppercase;
+  display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -28,21 +27,35 @@ text-transform: uppercase;
     line-height: 64px;
     margin-top: 100px;
     margin-bottom: 100px;
-  
   }
 }
 
 @media screen and (min-width: 1158px) {
   .adver-txt {
-    max-width: 1080px;
+    max-width: 1054px;
     font-size: 76px;
     line-height: 76px;
   }
 }
 
-
 .acsent-adver {
   background-color: #576f35;
   color: #fbfbfb;
-border-radius: 12px;
+  border-radius: 12px;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .acsent-adver {
+    display: inline-block;
+    padding: 20px 16px 0 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .acsent-adver {
+    text-align: left;
+    padding: 4px 16px;
+    margin-left: -16px;
+  }
 }
