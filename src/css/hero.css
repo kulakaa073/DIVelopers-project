@@ -16,7 +16,7 @@
   font-weight: 600;
   line-height: 1;
   font-size: 12vw;
-  letter-spacing: -0.01em;
+  letter-spacing: -1.5%;
   text-transform: uppercase;
   color: #fbfbfb;
   margin-bottom: 20px;
@@ -72,7 +72,7 @@
   .hero-title {
     font-size: 76px;
     margin-bottom: 25px;
-    max-width: 704px;
+    max-width: 100%;
   }
 
   .hero-text {
@@ -131,8 +131,11 @@
         rgba(20, 20, 20, 0.2)
       ),
       url(../img/hero-desktop@1x.jpg);
-    max-width: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Залиште 'cover' для адаптивності */
     min-height: 800px;
+    width: 100%; /* Додайте цю властивість */
   }
 
   @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
