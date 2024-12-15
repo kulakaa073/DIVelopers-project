@@ -127,8 +127,7 @@
 .accent-text-green {
   color: #576f35;
 }
-.input-wrapper {
-}
+
 .form-input,
 .form-textarea {
   border: 1px solid #858585;
@@ -217,8 +216,6 @@
 @media only screen and (min-width: 1280px) {
   .order-socials-wrapper {
     padding: 52px 48px;
-    max-width: unset;
-    flex-basis: calc(50% - 16px);
   }
 }
 .order-socials-img {
