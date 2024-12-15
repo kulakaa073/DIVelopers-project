@@ -1,3 +1,117 @@
-<section>
-  <h2>Your order</h2>
+<section id="your-order" class="order-section">
+  <div class="container">
+    <div class="order-text-box">
+      <h2 class="order-title">
+        Fresh <span class="accent-text-pink">Harvest</span> Box has got you
+        covered
+      </h2>
+      <p class="order-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
+    <div class="order-content-wrapper">
+      <form action="non-empty" class="order-form">
+        <p class="form-description">
+          Ordering <span class="accent-text-red">from us</span> is quick and
+          easy! Fill out
+          <span class="accent-text-green">the form</span>
+          below and we will contact you&nbsp;!
+        </p>
+        <div class="input-wrapper">
+          <input
+            class="form-input form-field"
+            type="text"
+            name="user-name"
+            placeholder="Full Name"
+            pattern="([A-Z][a-z]{1,} )([A-Z][a-z]{1,} )?([A-Z][a-z]{1,})"
+            aria-label="full name"
+            required
+          />
+        </div>
+        <div class="input-wrapper">
+          <input
+            class="form-input form-field"
+            type="email"
+            name="email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            aria-label="email"
+            required
+          />
+        </div>
+        <div class="textarea-wrapper">
+          <textarea
+            class="form-textarea form-field"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+        <button class="order-btn" type="submit">Send</button>
+      </form>
+      <div class="order-socials-wrapper">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/order-desktop@1x.jpg 1x,
+              ../img/order-desktop@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ../img/order-tablet@1x.jpg 1x,
+              ../img/order-tablet@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ../img/order-mobile@1x.jpg 1x,
+              ../img/order-mobile@2x.jpg 2x
+            "
+          />
+          <img
+            src="../img/order-mobile@1x.jpg"
+            alt="squeezing a lemon into a bottle on a kitchen counter"
+            width="458"
+            height="352"
+            class="order-socials-img"
+          />
+        </picture>
+        <p class="socials-text">Follow us on our social networks:</p>
+        <ul class="socials-list">
+          <li>
+            <a
+              class="socials-link"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              >instagram
+            </a>
+          <li><p class="socials-link">/</p></li> 
+          </li>
+          <li>
+            <a
+              class="socials-link"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              >facebook
+            </a>
+          <li><p class="socials-link">/</p></li>
+          </li>
+          <li>
+            <a
+              class="socials-link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              >youtube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
