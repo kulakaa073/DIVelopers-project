@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 768px) {
     .div-infor-work {
-        padding: 100px 64px;
+        padding: 100px 164px;
     }
 }
 
@@ -169,6 +169,7 @@
     gap: 20px;
     list-style: none;
     counter-reset: step-counter;
+    padding-left: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -200,14 +201,13 @@
 .items-work {
     border-radius: 15px;
     padding: 12px 27px 12px 24px;
-    height: 84px;
+    max-height: 84px;
     background: #fbfbfb;
 
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    margin-bottom: 24px;
 
     counter-increment: step-counter;
     position: relative;
@@ -221,7 +221,7 @@
     }
 }
 
-.list-work .items-work::before {
+.items-work::before {
     content: counter(step-counter) "";
     position: absolute;
     left: 24px;
