@@ -1,0 +1,248 @@
+.how-it {
+    background: linear-gradient(180deg, #7a3145 50%, #576f35 50%);
+}
+
+.how-it .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .how-it .container {
+        flex-direction: row;
+    } 
+
+    .how-it {
+        background: linear-gradient(90deg, #7a3145 50%, #576f35 50%);
+    }
+}
+
+
+
+/*картинка*/
+.div-img-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a3145;
+    padding: 40px 20px;
+}
+
+
+.img-how {
+    background-color: #212121;
+    border-radius: 30px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .div-img-work {
+        padding: 100px 64px;
+    }
+
+    .img-how {
+        width: 100%;
+        max-width: 640px;
+        max-height: 640px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .div-img-work {
+        padding: 100px;
+    }
+
+    .img-how {
+        max-width: 440px;
+        max-height: 560px;
+    }
+}
+
+
+
+
+/*інфа*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.div-infor-work {
+    display: flex;
+    flex-direction: column;
+    background-color: #576f35;
+    padding: 80px 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .div-infor-work {
+        padding: 100px 164px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .div-infor-work {
+        padding: 100px;
+        max-width: 640px;
+    }
+}
+
+.div-descr-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .div-descr-work {
+        margin-bottom: 52px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .div-descr-work {
+        margin-bottom: 104px;
+    }
+}
+
+.header-work {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+.span-header-work {
+    color: #d4bfc4;
+}
+
+.parag-work  {
+    display: flex;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fbfbfb;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .header-work {        
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+
+    .parag-work {
+        font-size: 16px;
+        line-height: 125%;
+    }
+}
+
+
+/*список
+.div-list-work {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.list-work {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    counter-reset: step-counter;
+    padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .list-work {
+        gap: 24px;
+    }
+}
+
+.list-parag {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #858585;
+}
+
+@media screen and (min-width: 768px) {
+    .list-parag {
+        font-size: 16px;
+        line-height: 125%;
+    }
+}
+
+.span-items {
+    font-weight: 700;
+    color: #141414;
+}
+
+.items-work {
+    border-radius: 15px;
+    padding: 12px 27px 12px 24px;
+    max-height: 84px;
+    background: #fbfbfb;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    counter-increment: step-counter;
+    position: relative;
+    padding-left: 111px;
+}
+
+@media only screen and (min-width: 768px) {
+    .items-work {
+        padding: 18px 15px 18px 100px;
+        max-height: 76px;
+    }
+}
+
+.items-work::before {
+    content: counter(step-counter) "";
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #D4BFC4;
+    border-radius: 50%;
+    background-color: #7a3145;
+    width: 52px;
+    height: 52px;
+}
