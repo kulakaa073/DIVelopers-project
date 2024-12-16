@@ -2,12 +2,13 @@
   background-color: #fbfbfb;
   display: flex;
   justify-content: center;
-  margin: 80px auto;
+  padding: 80px 0;
+  
 }
 
 @media screen and (min-width: 768px) {
   .adver {
-    padding: 100px auto;
+    padding: 100px 0;
   }
 }
 
