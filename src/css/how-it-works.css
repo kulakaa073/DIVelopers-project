@@ -1,9 +1,8 @@
 .how-it .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
+
 
 @media screen and (min-width: 1280px) {
     .how-it .container {
@@ -79,8 +78,6 @@
 
 .div-infor-work {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     background-color: #576f35;
     padding: 80px 20px;
@@ -90,14 +87,14 @@
 @media screen and (min-width: 768px) {
     .div-infor-work {
         padding: 100px 64px;
-        max-width: 768px;
+        max-width: 440px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .div-infor-work {
         padding: 100px;
-        max-width: 1280px;
+        max-width: 440px;
     }
 }
 
@@ -157,8 +154,6 @@
 /*список*/
 .div-list-work {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -173,6 +168,13 @@
     font-size: 14px;
     line-height: 143%;
     color: #858585;
+}
+
+@media screen and (min-width: 768px) {
+    .list-parag {
+        font-size: 16px;
+        line-height: 125%;
+    }
 }
 
 .span-items {
