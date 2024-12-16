@@ -19,13 +19,16 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/DIVelopers-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/DIVelopers-project/assets/index-DfiC81P_.css">
+    <link rel="stylesheet" crossorigin href="/DIVelopers-project/assets/index-1HnNjYao.css">
   </head>
   <body>
-    <header class="header">
+    <!-- Loads the specified .html file -->
+    <!-- #region Header -->
+<header class="header">
   <div class="container header-container">
     <nav class="header-nav">
-      <a href="/" class="logo header-logo">
+      <!-- Logo -->
+      <a href="index.html" class="logo header-logo">
         <svg class="logo-icon logo-icon-shape" width="16" height="16">
           <use href="/DIVelopers-project/assets/sprite-DdnY88ZN.svg#icon-logo"></use>
         </svg>
@@ -33,6 +36,7 @@
           <use href="/DIVelopers-project/assets/sprite-DdnY88ZN.svg#logo-text"></use>
         </svg>
       </a>
+      <!-- Navigation -->
       <ul class="header-nav-list">
         <li class="header-nav-item">
           <a href="#how-it-works" class="header-nav-link">How It Works</a>
@@ -46,6 +50,7 @@
       </ul>
     </nav>
     <a class="header-button" href="#your-order">Shop now</a>
+    <!--Burger menu-->
     <button class="header-burger-button" type="button">
       <svg class="header-burger-button-icon" width="21.33" height="16">
         <use href="/DIVelopers-project/assets/sprite-DdnY88ZN.svg#icon-menu"></use>
@@ -53,15 +58,15 @@
     </button>
   </div>
 </header>
+<!-- #endregion Header -->
 
 
     <main>
-      <!-- Loads the specified .html file -->
-      <!--hero-->
+      <!-- #region Hero-->
 <section class="hero">
   <div class="container hero-inner">
     <div class="hero-content">
-      <h1 class="hero-title">organic vegetables to your diet today!</h1>
+      <h1 class="hero-title">Organic vegetables to your diet today!</h1>
       <p class="hero-text">
         Our expertly curated vegetable baskets are made with the freshest,
         highest quality vegetables available. Fresh Harvest Box has got you
@@ -69,31 +74,35 @@
         baskets delivered to you.
       </p>
     </div>
+    <!-- Flavour image -->
     <div class="hero-image"></div>
   </div>
 </section>
+<!-- #endregion Hero -->
 
-      <link rel="stylesheet" href="/src/css/how-it-works.css" />
-<section class="how-it">
+      <!-- #region How it works -->
+<section class="how-it" id="how-it-works">
   <div class="container how-it-container">
+    <!-- Flavour image -->
     <div class="div-img-work">
       <picture>
         <source
           media="(min-width: 1280px)"
-          srcset="/DIVelopers-project/assets/how-it-works-desktop@1x-OuNv8L4K.jpg 1x, /DIVelopers-project/assets/how-it-works-desktop@2x-UIZ1zA5m.jpg 2x"
+          srcset="/DIVelopers-project/assets/how-it-works-desktop@1x-BjDUAktt.jpg 1x, /DIVelopers-project/assets/how-it-works-desktop@2x-CPeJzCoL.jpg 2x"
         />
         <source
           media="(min-width: 768px)"
-          srcset="/DIVelopers-project/assets/how-it-works-tablet@1x-zPdnzMtZ.jpg 1x, /DIVelopers-project/assets/how-it-works-tablet@2x-Bi2_j_uI.jpg 2x"
+          srcset="/DIVelopers-project/assets/how-it-works-tablet@1x-0lrQGqT3.jpg 1x, /DIVelopers-project/assets/how-it-works-tablet@2x-DbFZHr6p.jpg 2x"
         />
         <source
           media="(max-width: 767px)"
-          srcset="/DIVelopers-project/assets/how-it-works-mobile@1x-zAjToMGB.jpg 1x, /DIVelopers-project/assets/how-it-works-mobile@2x-Ccazh4kS.jpg 2x"
+          srcset="/DIVelopers-project/assets/how-it-works-mobile@1x-UBZqJDm8.jpg 1x, /DIVelopers-project/assets/how-it-works-mobile@2x-DgxIaOjC.jpg 2x"
         />
-        <img class="img-how" src= /DIVelopers-project/assets/how-it-works-mobile@1x-zAjToMGB.jpg alt="girl who
+        <img class="img-how" src= /DIVelopers-project/assets/how-it-works-mobile@1x-UBZqJDm8.jpg alt="girl who
         cooking" width="335" height="452"/>
       </picture>
     </div>
+    <!-- Description -->
     <div class="div-infor-work">
       <div class="div-descr-work">
         <h2 class="visually-hidden">How it works</h2>
@@ -107,136 +116,238 @@
           leaving your home.
         </p>
       </div>
-
-      <div>
-        <ol class="list-work">
-          <li class="items-work">
-            <p class="list-parag">
-              Just choose
-              <span class="span-items">the vegetable</span> you want to order by
-              clicking on the checkboxes
-              <span class="span-items">next to it</span>.
-            </p>
-          </li>
-          <li class="items-work">
-            <p class="list-parag">
-              Click on <span class="span-items">the basket</span> and fill out
-              the form.
-            </p>
-          </li>
-          <li class="items-work">
-            <p class="list-parag">
-              Sit back and relax! Your
-              <span class="span-items">fresh vegetables</span>
-              basket will be delivered.
-            </p>
-          </li>
-        </ol>
-      </div>
+      <!-- List of steps -->
+      <ol class="list-work">
+        <li class="items-work">
+          <p class="list-parag">
+            Just choose
+            <span class="span-items">the vegetable</span> you want to order by
+            clicking on the checkboxes
+            <span class="span-items">next to it</span>.
+          </p>
+        </li>
+        <li class="items-work">
+          <p class="list-parag">
+            Click on <span class="span-items">the basket</span> and fill out the
+            form.
+          </p>
+        </li>
+        <li class="items-work">
+          <p class="list-parag">
+            Sit back and relax! Your
+            <span class="span-items">fresh vegetables</span>
+            basket will be delivered.
+          </p>
+        </li>
+      </ol>
     </div>
   </div>
 </section>
+<!-- #endregion How it works -->
 
-      
+      <!-- #region Ad -->
 <section class="adver">
   <div class="container">
-  <h2 class="visually-hidden">Advertisement</h2>
-  <p class="adver-txt">
-    <span class="acsent-adver">Discount up to 40%!</span>
-    Taste the vitamins and keep your health
-  </p>
-</div>
+    <h2 class="visually-hidden">Advertisement</h2>
+    <p class="adver-txt">
+      <span class="acsent-adver">Discount up to 40%!</span>
+      Taste the vitamins and keep your health
+    </p>
+  </div>
 </section>
+<!-- #endregion Ad -->
 
-      <section class="vegetables-section" id="vegetables">
+      <!-- #region Vegetables -->
+<section class="vegetables-section" id="vegetables">
   <div class="container">
-    <h2 class="vegetables-subject">ORGANIC <span class="part-subject">VEGETABLES</span></h2>
-      <p class="vegetables-text">Our organic vegetables are hand-picked from local farms and delivered straight to your doorstep, ensuring that you get the freshest and most nutritious produce possible.</p>
-        <ul class="vegetables-list">
-          <li class="vegetables-items">
-            <h3 class="vegetables-items-text">EGGPLANT</h3>
-              <p class="vegetables-price">60 USD / kg</p>
-              <!-- desktop -->
-              <picture>
-                <source media="(min-width: 1280px)" srcset="/DIVelopers-project/assets/eggplant-mobile@1x-J1e-BsUO.jpg 1x, /DIVelopers-project/assets/eggplant-desktop@2x-DnUrNcEQ.jpg 2x">
-            <!-- tablet-->
-                <source media="(min-width: 768px)" srcset="/DIVelopers-project/assets/eggplant-tablet@1x-xNkpZo97.jpg 1x, /DIVelopers-project/assets/eggplant-tablet@2x-CDfUQ4ZC.jpg 2x">   
-            <!-- mobile-->
-             <source media="(min-width: 320px)" srcset="/DIVelopers-project/assets/eggplant-mobile@1x-J1e-BsUO.jpg 1x, /DIVelopers-project/assets/eggplant-mobile@2x-C89Yq_5a.jpg 2x">
-                <img class="vegetables-picture" src="/DIVelopers-project/assets/eggplant-mobile@1x-J1e-BsUO.jpg" alt="eggplant" width="280px" height="240px">
-                </picture>
-          </li>
-          <li class="vegetables-items">
-            <h3 class="vegetables-items-text">LEEK</h3>
-              <p class="vegetables-price">50 USD / kg</p>
-              <!-- desktop -->
-              <picture>
-                <source media="(min-width: 1280px)" srcset="/DIVelopers-project/assets/leek-desktop@1x-D71m77q8.jpg 1x, /DIVelopers-project/assets/leek-desktop@2x-CA0rAp7X.jpg 2x">
-            <!-- tablet-->
-                <source media="(min-width: 768px)" srcset="/DIVelopers-project/assets/leek-mobile@1x-lS6irbSl.jpg 1x, /DIVelopers-project/assets/leek-mobile@2x-wpHDpVWc.jpg 2x">   
-            <!-- mobile-->
-             <source media="(min-width: 320px)" srcset="/DIVelopers-project/assets/leek-mobile@1x-lS6irbSl.jpg 1x, /DIVelopers-project/assets/leek-mobile@2x-wpHDpVWc.jpg 2x">
-                <img class="vegetables-picture" src="/DIVelopers-project/assets/leek-mobile@1x-lS6irbSl.jpg" alt="leek" width="280px" height="240px">
-                </picture>
-          </li>
-          <li class="vegetables-items">
-            <h3 class="vegetables-items-text">MUSHROOMS</h3>
-              <p class="vegetables-price">40 USD / kg</p>
-              <!-- desktop -->
-              <picture>
-                <source media="(min-width: 1280px)" srcset="/DIVelopers-project/assets/mushrooms-desktop@1x-BeNZAiSb.jpg 1x, /DIVelopers-project/assets/mushrooms-desktop@2x-DowemrQ9.jpg 2x">
-            <!-- tablet-->
-                <source media="(min-width: 768px)" srcset="/DIVelopers-project/assets/mushrooms-mobile@1x-Bq4RwIzU.jpg 1x, /DIVelopers-project/assets/mushrooms-mobile@2x-CB5StB40.jpg 2x">   
-            <!-- mobile-->
-             <source media="(min-width: 320px)" srcset="/DIVelopers-project/assets/mushrooms-mobile@1x-Bq4RwIzU.jpg 1x, /DIVelopers-project/assets/mushrooms-mobile@2x-CB5StB40.jpg 2x">
-                <img class="vegetables-picture" src="/DIVelopers-project/assets/mushrooms-mobile@1x-Bq4RwIzU.jpg" alt="mushrooms" width="280px" height="240px">
-                </picture>
-          </li>
-          <li class="vegetables-items">
-            <h3 class="vegetables-items-text">CORN</h3>
-              <p class="vegetables-price">60 USD / kg</p>
-              <!-- desktop -->
-                    <picture>
-                        <source media="(min-width: 1280px)" srcset="/DIVelopers-project/assets/corn-desktop@1x-BGbMR1L3.jpg 1x, /DIVelopers-project/assets/corn-desktop@2x-CZe0QSjS.jpg 2x">
-                    <!-- tablet-->
-                        <source media="(min-width: 768px)" srcset="/DIVelopers-project/assets/corn-mobile@2x-5rhJFB7J.jpg 1x, /DIVelopers-project/assets/corn-mobile@1x-BjEtJfOX.jpg 2x">   
-                    <!-- mobile-->
-                     <source media="(min-width: 320px)" srcset="/DIVelopers-project/assets/corn-mobile@1x-BjEtJfOX.jpg 1x, /DIVelopers-project/assets/corn-mobile@2x-5rhJFB7J.jpg 2x">
-                <img class="vegetables-picture" src="/DIVelopers-project/assets/corn-mobile@1x-BjEtJfOX.jpg" alt="corn" width="280px" height="240px">
-                </picture>
-          </li>
-          <li class="vegetables-items">
-            <h3 class="vegetables-items-text">SWEET POTATOES</h3>
-              <p class="vegetables-price">50 USD / kg</p>
-              <!-- desktop -->
-                    <picture>
-                        <source media="(min-width: 1280px)" srcset="/DIVelopers-project/assets/sweet-potato-desktop@1x-Bxg0OG4A.jpg 1x, /DIVelopers-project/assets/sweet-potato-desktop@2x-CF8rROay.jpg 2x">
-                    <!-- tablet-->
-                        <source media="(min-width: 768px)" srcset="/DIVelopers-project/assets/sweet-potato-mobile@1x-Dcb_ah-6.jpg 1x, /DIVelopers-project/assets/sweet-potato-mobile@2x-Cp1_IWLU.jpg 2x">   
-                    <!-- mobile-->
-                     <source media="(min-width: 320px)" srcset="/DIVelopers-project/assets/sweet-potato-mobile@1x-Dcb_ah-6.jpg 1x, /DIVelopers-project/assets/sweet-potato-mobile@2x-Cp1_IWLU.jpg 2x">
-                <img class="vegetables-picture" src="/DIVelopers-project/assets/sweet-potato-mobile@1x-Dcb_ah-6.jpg" alt="sweet potatoes" width="280px" height="240px">
-                </picture>
-            </li>
-            <li class="vegetables-items">
-              <h3 class="vegetables-items-text">CARROT</h3>
-                <p class="vegetables-price">40 USD / kg</p>
-                <!-- desktop -->
-                    <picture>
-                        <source media="(min-width: 1280px)" srcset="/DIVelopers-project/assets/carrot-desktop@1x-CV7vgAVv.jpg 1x, /DIVelopers-project/assets/carrot-desktop@2x-Cui4Ssid.jpg 2x">
-                    <!-- tablet-->
-                        <source media="(min-width: 768px)" srcset="/DIVelopers-project/assets/carrot-mobile@1x-8R_QVc7p.jpg 1x, /DIVelopers-project/assets/carrot-mobile@2x-CgsxaMef.jpg 2x">   
-                    <!-- mobile-->
-                     <source media="(min-width: 320px)" srcset="/DIVelopers-project/assets/carrot-mobile@1x-8R_QVc7p.jpg 1x, /DIVelopers-project/assets/carrot-mobile@2x-CgsxaMef.jpg 2x">
-                  <img class="vegetables-picture" src="/DIVelopers-project/assets/carrot-mobile@1x-8R_QVc7p.jpg" alt="carrot" width="280px" height="240px">
-                  </picture>
-            </li>
-        </ul>
-      </div>
+    <!-- Description -->
+    <h2 class="vegetables-subject">
+      ORGANIC <span class="part-subject">VEGETABLES</span>
+    </h2>
+    <p class="vegetables-text">
+      Our organic vegetables are hand-picked from local farms and delivered
+      straight to your doorstep, ensuring that you get the freshest and most
+      nutritious produce possible.
+    </p>
+    <!-- Price list table -->
+    <ul class="vegetables-list">
+      <li class="vegetables-items">
+        <h3 class="vegetables-items-text">EGGPLANT</h3>
+        <p class="vegetables-price">60 USD / kg</p>
+        <!-- desktop -->
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/DIVelopers-project/assets/eggplant-desktop@1x-CDrFvEIW.png 1x, /DIVelopers-project/assets/eggplant-desktop@2x-DvLzqDxv.png 2x"
+          />
+          <!-- tablet-->
+          <source
+            media="(min-width: 768px)"
+            srcset="/DIVelopers-project/assets/eggplant-mobile@1x-esMOT5VC.png 1x, /DIVelopers-project/assets/eggplant-mobile@2x-sx90wmW2.png 2x"
+          />
+          <!-- mobile-->
+          <source
+            media="(min-width: 320px)"
+            srcset="/DIVelopers-project/assets/eggplant-mobile@1x-esMOT5VC.png 1x, /DIVelopers-project/assets/eggplant-mobile@2x-sx90wmW2.png 2x"
+          />
+          <img
+            class="vegetables-picture"
+            src="/DIVelopers-project/assets/eggplant-mobile@1x-esMOT5VC.png"
+            alt="eggplant"
+            width="280"
+            height="240"
+          />
+        </picture>
+      </li>
+      <li class="vegetables-items">
+        <h3 class="vegetables-items-text">LEEK</h3>
+        <p class="vegetables-price">50 USD / kg</p>
+        <!-- desktop -->
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/DIVelopers-project/assets/leek-desktop@1x-Bn0SeBDz.png 1x, /DIVelopers-project/assets/leek-desktop@2x-CLhqhQPc.png 2x"
+          />
+          <!-- tablet-->
+          <source
+            media="(min-width: 768px)"
+            srcset="/DIVelopers-project/assets/leek-mobile@1x--N8UVOI7.png 1x, /DIVelopers-project/assets/leek-mobile@2x-DKj1iPPi.png 2x"
+          />
+          <!-- mobile-->
+          <source
+            media="(min-width: 320px)"
+            srcset="/DIVelopers-project/assets/leek-mobile@1x--N8UVOI7.png 1x, /DIVelopers-project/assets/leek-mobile@2x-DKj1iPPi.png 2x"
+          />
+          <img
+            class="vegetables-picture"
+            src="/DIVelopers-project/assets/leek-mobile@1x--N8UVOI7.png"
+            alt="leek"
+            width="280"
+            height="240"
+          />
+        </picture>
+      </li>
+      <li class="vegetables-items">
+        <h3 class="vegetables-items-text">MUSHROOMS</h3>
+        <p class="vegetables-price">40 USD / kg</p>
+        <!-- desktop -->
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/DIVelopers-project/assets/mushrooms-desktop@1x-BGIE4JpC.png 1x, /DIVelopers-project/assets/mushrooms-desktop@2x-NWRF7iDl.png 2x"
+          />
+          <!-- tablet-->
+          <source
+            media="(min-width: 768px)"
+            srcset="/DIVelopers-project/assets/mushrooms-mobile@1x-7aCcqlke.png 1x, /DIVelopers-project/assets/mushrooms-mobile@2x-DO-TQuS5.png 2x"
+          />
+          <!-- mobile-->
+          <source
+            media="(min-width: 320px)"
+            srcset="/DIVelopers-project/assets/mushrooms-mobile@1x-7aCcqlke.png 1x, /DIVelopers-project/assets/mushrooms-mobile@2x-DO-TQuS5.png 2x"
+          />
+          <img
+            class="vegetables-picture"
+            src="/DIVelopers-project/assets/mushrooms-mobile@1x-7aCcqlke.png"
+            alt="mushrooms"
+            width="280"
+            height="240"
+          />
+        </picture>
+      </li>
+      <li class="vegetables-items">
+        <h3 class="vegetables-items-text">CORN</h3>
+        <p class="vegetables-price">60 USD / kg</p>
+        <!-- desktop -->
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/DIVelopers-project/assets/corn-desktop@1x-z8kzlc4f.png 1x, /DIVelopers-project/assets/corn-desktop@2x-QbIVlJsa.png 2x"
+          />
+          <!-- tablet-->
+          <source
+            media="(min-width: 768px)"
+            srcset="/DIVelopers-project/assets/corn-mobile@1x-BQolHbiL.png 1x, /DIVelopers-project/assets/corn-mobile@2x-I-6wW_Xs.png 2x"
+          />
+          <!-- mobile-->
+          <source
+            media="(min-width: 320px)"
+            srcset="/DIVelopers-project/assets/corn-mobile@1x-BQolHbiL.png 1x, /DIVelopers-project/assets/corn-mobile@2x-I-6wW_Xs.png 2x"
+          />
+          <img
+            class="vegetables-picture"
+            src="/DIVelopers-project/assets/corn-mobile@1x-BQolHbiL.png"
+            alt="corn"
+            width="280"
+            height="240"
+          />
+        </picture>
+      </li>
+      <li class="vegetables-items">
+        <h3 class="vegetables-items-text">SWEET POTATOES</h3>
+        <p class="vegetables-price">50 USD / kg</p>
+        <!-- desktop -->
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/DIVelopers-project/assets/sweet-potato-desktop@1x-D4QJDJ_5.png 1x, /DIVelopers-project/assets/sweet-potato-desktop@2x-MAFNogdb.png 2x"
+          />
+          <!-- tablet-->
+          <source
+            media="(min-width: 768px)"
+            srcset="/DIVelopers-project/assets/sweet-potato-mobile@1x-Dbs59XkQ.png 1x, /DIVelopers-project/assets/sweet-potato-mobile@2x-BfwmoALK.png 2x"
+          />
+          <!-- mobile-->
+          <source
+            media="(min-width: 320px)"
+            srcset="/DIVelopers-project/assets/sweet-potato-mobile@1x-Dbs59XkQ.png 1x, /DIVelopers-project/assets/sweet-potato-mobile@2x-BfwmoALK.png 2x"
+          />
+          <img
+            class="vegetables-picture"
+            src="/DIVelopers-project/assets/sweet-potato-mobile@1x-Dbs59XkQ.png"
+            alt="sweet potatoes"
+            width="280"
+            height="240"
+          />
+        </picture>
+      </li>
+      <li class="vegetables-items">
+        <h3 class="vegetables-items-text">CARROT</h3>
+        <p class="vegetables-price">40 USD / kg</p>
+        <!-- desktop -->
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/DIVelopers-project/assets/carrot-desktop@1x-DLRdef7I.png 1x, /DIVelopers-project/assets/carrot-desktop@2x-BvHF0JKG.png 2x"
+          />
+          <!-- tablet-->
+          <source
+            media="(min-width: 768px)"
+            srcset="/DIVelopers-project/assets/carrot-mobile@1x-CBAqCpwB.png 1x, /DIVelopers-project/assets/carrot-mobile@2x-BBV23diQ.png 2x"
+          />
+          <!-- mobile-->
+          <source
+            media="(min-width: 320px)"
+            srcset="/DIVelopers-project/assets/carrot-mobile@1x-CBAqCpwB.png 1x, /DIVelopers-project/assets/carrot-mobile@2x-BBV23diQ.png 2x"
+          />
+          <img
+            class="vegetables-picture"
+            src="/DIVelopers-project/assets/carrot-mobile@1x-CBAqCpwB.png"
+            alt="carrot"
+            width="280"
+            height="240"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
 </section>
+<!-- #endregion Vegetables -->
 
-      <section class="response" id="reviews">
+      <!-- #region Reviews -->
+<section class="response" id="reviews">
   <div class="container">
+    <!-- Description -->
     <h2 class="title response-title">
       reviews from our <span class="title span">customers</span>
     </h2>
@@ -244,12 +355,13 @@
       Words of our customers: impressions and opinions about the quality of our
       services and the freshness of our products.
     </p>
+    <!-- Reviews list -->
     <ul class="response-list">
       <li class="response-item">
         <img
           class="respons-img"
-          srcset="/DIVelopers-project/assets/review-customer-1@1x-BPhojRWs.jpg 1x, /DIVelopers-project/assets/review-customer-1@2x-Cx-norOk.jpg 2x"
-          src="/DIVelopers-project/assets/review-customer-1@1x-BPhojRWs.jpg"
+          srcset="/DIVelopers-project/assets/review-customer-1@1x-DBa9dumF.png 1x, /DIVelopers-project/assets/review-customer-1@2x-DH8eCugE.png 2x"
+          src="/DIVelopers-project/assets/review-customer-1@1x-DBa9dumF.png"
           alt="John Wax"
           width="56"
           height="56"
@@ -264,8 +376,8 @@
       <li class="response-item respons-second">
         <img
           class="respons-img"
-          srcset="/DIVelopers-project/assets/review-customer-2@1x-BDJ6HbcH.jpg 1x, /DIVelopers-project/assets/review-customer-2@2x-DbWmO1lE.jpg 2x"
-          src="/DIVelopers-project/assets/review-customer-2@1x-BDJ6HbcH.jpg"
+          srcset="/DIVelopers-project/assets/review-customer-2@1x-Drnfy46a.png 1x, /DIVelopers-project/assets/review-customer-2@2x-C2486aQM.png 2x"
+          src="/DIVelopers-project/assets/review-customer-2@1x-Drnfy46a.png"
           alt="John Wax"
           width="56"
           height="56"
@@ -280,8 +392,8 @@
       <li class="response-item respons-third">
         <img
           class="respons-img"
-          srcset="/DIVelopers-project/assets/review-customer-3@1x-cD-BITi6.jpg 1x, /DIVelopers-project/assets/review-customer-3@2x-DxtbWVk1.jpg 2x"
-          src="img/review-customer-3@1x.jp"
+          srcset="/DIVelopers-project/assets/review-customer-3@1x-C3_eUmf0.png 1x, /DIVelopers-project/assets/review-customer-3@2x-Cdf7QKcP.png 2x"
+          src="/DIVelopers-project/assets/review-customer-3@1x-C3_eUmf0.png"
           alt="John Wax"
           width="56"
           height="56"
@@ -301,10 +413,12 @@
     </div>
   </div>
 </section>
-<script src="main.js"></script>
+<!-- #endregion Reviews -->
 
-      <section id="your-order" class="order-section">
+      <!-- #region Your order -->
+<section id="your-order" class="order-section">
   <div class="container">
+    <!-- Description -->
     <div class="order-text-box">
       <h2 class="order-title">
         Fresh <span class="accent-text-pink">Harvest</span> Box has got you
@@ -317,6 +431,7 @@
       </p>
     </div>
     <div class="order-content-wrapper">
+      <!-- Order form -->
       <form action="non-empty" class="order-form">
         <p class="form-description">
           Ordering <span class="accent-text-red">from us</span> is quick and
@@ -356,22 +471,23 @@
         </div>
         <button class="order-btn" type="submit">Send</button>
       </form>
+      <!-- Flavour image and socials -->
       <div class="order-socials-wrapper">
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/DIVelopers-project/assets/order-desktop@1x-Pu8Ekc2i.jpg 1x, /DIVelopers-project/assets/order-desktop@2x-Bcnwup0Y.jpg 2x"
+            srcset="/DIVelopers-project/assets/order-desktop@1x-V24CuvN9.jpg 1x, /DIVelopers-project/assets/order-desktop@2x-Bnm-yyNF.jpg 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/DIVelopers-project/assets/order-tablet@1x-BTQ5Egi-.jpg 1x, /DIVelopers-project/assets/order-tablet@2x-BZRHI0tD.jpg 2x"
+            srcset="/DIVelopers-project/assets/order-tablet@1x-DjhlMFP1.jpg 1x, /DIVelopers-project/assets/order-tablet@2x-BKMCwx-c.jpg 2x"
           />
           <source
             media="(min-width: 320px)"
-            srcset="/DIVelopers-project/assets/order-mobile@1x-CQVsNRBN.jpg 1x, /DIVelopers-project/assets/order-mobile@2x-mOsm84JI.jpg 2x"
+            srcset="/DIVelopers-project/assets/order-mobile@1x-B7geLY1d.jpg 1x, /DIVelopers-project/assets/order-mobile@2x-COwS7Yon.jpg 2x"
           />
           <img
-            src="/DIVelopers-project/assets/order-mobile@1x-CQVsNRBN.jpg"
+            src="/DIVelopers-project/assets/order-mobile@1x-B7geLY1d.jpg"
             alt="squeezing a lemon into a bottle on a kitchen counter"
             width="458"
             height="352"
@@ -412,10 +528,10 @@
   </div>
 </section>
 
+<!-- #endregion Your order -->
     </main>
 
-    
-<!-- Footer -->
+    <!-- #region Footer -->
 
 <footer class="page-footer">
   <div class="footer-container container">
@@ -423,18 +539,19 @@
       <div class="footer-logo-cont">
         <!-- Logo -->
         <div class="footer-logo">
-          <a href="../index.html" class="logo">
+          <a href="index.html" class="logo">
             <svg class="logo-icon logo-icon-shape" width="16" height="16">
-              <use href="../img/sprite.svg#icon-logo"></use>
+              <use href="/DIVelopers-project/assets/sprite-DdnY88ZN.svg#icon-logo"></use>
             </svg>
             <svg class="logo-icon logo-icon-text" width="146" height="12">
-              <use href="../img/sprite.svg#logo-text"></use>
+              <use href="/DIVelopers-project/assets/sprite-DdnY88ZN.svg#logo-text"></use>
             </svg>
           </a>
         </div>
         <!-- Reason -->
         <p class="footer-text">
-          Whether you're looking for a healthy&nbsp; snack or a thoughtful gift, our fruit baskets&nbsp;are the perfect&nbsp; choice.
+          Whether you're looking for a healthy&nbsp; snack or a thoughtful gift,
+          our fruit baskets&nbsp;are the perfect&nbsp; choice.
         </p>
       </div>
       <div class="footer-contacts-cont">
@@ -442,7 +559,9 @@
         <nav class="nav-footer">
           <ul class="nav-footer-list">
             <li class="nav-footer-item">
-              <a class="nav-footer-link" href="#how-it-works">how&nbsp;it&nbsp;works</a>
+              <a class="nav-footer-link" href="#how-it-works"
+                >how&nbsp;it&nbsp;works</a
+              >
             </li>
             <li class="nav-footer-item">
               <a class="nav-footer-link" href="#vegetables">vegetables</a>
@@ -456,11 +575,16 @@
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
-              <a class="contacts-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+              <a class="contacts-link" href="tel:+380684439426"
+                >+380 (68) 443-94-26</a
+              >
             </li>
             <li class="contacts-item">
-              <a class="contacts-link" href="https://www.google.com/maps?q=1678+S.+Pioneer+Road+Salt+Lake+City+UT+84104"
-                target="_blank">
+              <a
+                class="contacts-link"
+                href="https://www.google.com/maps?q=1678+S.+Pioneer+Road+Salt+Lake+City+UT+84104"
+                target="_blank"
+              >
                 1678 S. Pioneer Road, Salt Lake&nbsp;City, UT 84104
               </a>
             </li>
@@ -468,6 +592,7 @@
         </address>
       </div>
     </div>
+    <!-- Privacy policy -->
     <div class="privacy-policy-cont">
       <div class="privacy-policy-items">
         <a class="privacy-policy-link" href="/">Privacy Policy</a>
@@ -480,15 +605,17 @@
     </div>
   </div>
 </footer>
+<!-- #endregion Footer -->
 
-    <section class="is-open modal-overlay">
+    <!-- #region Mobile menu -->
+<section class="modal-overlay">
   <div class="modal">
     <h2 class="visually-hidden">Mobile Menu</h2>
     <button class="mdl-bttn" type="button">
       <svg class="svg-bttn">
-          <use href="../img/sprite.svg#icon-close-x"></use>
+        <use href="/DIVelopers-project/assets/sprite-DdnY88ZN.svg#icon-close-x"></use>
       </svg>
-    </button> 
+    </button>
     <div class="mdl-dv">
       <nav class="mdl-nv">
         <ul class="nv-lst">
@@ -501,6 +628,7 @@
     </div>
   </div>
 </section>
+<!-- #endregion Mobile menu -->
 
   </body>
 </html>
