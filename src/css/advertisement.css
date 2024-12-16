@@ -2,11 +2,24 @@
   background-color: #fbfbfb;
   display: flex;
   justify-content: center;
+  margin: 80px auto;
 }
 
-.adver .container {
+@media screen and (min-width: 768px) {
+  .adver {
+    padding: 100px auto;
+  }
+}
 
+@media screen and (min-width: 1280px) {
+  .adver {
+
+  }
+}
+
+.adver.container {
   
+
 }
 .adver-txt {
   font-family: Inter Tight, sans-serif;
@@ -19,7 +32,6 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #141414;
-  padding: 80px auto;
   text-transform: uppercase;
   display: block;
 }
@@ -29,7 +41,6 @@
     max-width: 704px;
     font-size: 64px;
     line-height: 64px;
-    padding: 100px auto;
   }
 }
 
