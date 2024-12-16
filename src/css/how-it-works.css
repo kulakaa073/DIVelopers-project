@@ -30,7 +30,7 @@
 }
 
 
-.img-work {
+.img-how {
     border-radius: 30px;
     max-width: 335px;
     max-height: 452px;
@@ -42,13 +42,19 @@
     }
 
     .img-how {
-        max-width: 335px;
-        max-height: 452px;
+        width: 100%;
+        max-width: 640px;
+        max-height: 640px;
     }
 }
 @media screen and (min-width: 1280px) {
     .div-img-work {
         padding: 100px;
+    }
+
+    .img-how {
+        max-width: 440px;
+        max-height: 560px;
     }
 }
 
