@@ -1,0 +1,124 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .header-container {
+    padding-top: 32px;
+  }
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  flex-grow: 1;
+}
+.header-logo {
+  margin-right: auto;
+}
+.header-nav-list {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .header-nav-list {
+    display: flex;
+    gap: 8px;
+    margin-right: 20px;
+  }
+}
+.header-nav-link {
+  display: block;
+  padding: 12px;
+  border: 1px solid #fbfbfb;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-decoration: none;
+  color: #fbfbfb;
+}
+@media only screen and (hover: hover) {
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    background-color: #d4bfc4;
+    border-color: #d4bfc4;
+    color: #7a3145;
+  }
+}
+.header-nav-link:active {
+  background-color: #fbfbfb;
+  border-color: #fbfbfb;
+  color: #7a3145;
+}
+.header-button {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .header-button {
+    display: block;
+    border-radius: 30px;
+    padding: 16px 32px;
+    min-width: 157px;
+    height: 52px;
+    padding: 16px 32px;
+    background-color: #7a3145;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+  }
+}
+
+@media only screen and (hover: hover) {
+  .header-button:hover,
+  .header-button:focus {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+}
+.header-button:active {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+/*#region BURGER BUTTON */
+.header-burger-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+@media only screen and (min-width: 768px) {
+  .header-burger-button {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-burger-button {
+    display: none;
+  }
+}
+.header-burger-button-icon {
+  stroke: #fbfbfb;
+}
+@media only screen and (min-width: 768px) {
+  .header-burger-button-icon {
+    width: 26.67px;
+    height: 20px;
+  }
+}
+/*#endregion BURGER BUTTON */
