@@ -1,19 +1,21 @@
+.how-it {
+    background: linear-gradient(180deg, #7a3145 50%, #576f35 50%);
+}
+
 .how-it .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 
 @media screen and (min-width: 1280px) {
     .how-it .container {
         flex-direction: row;
-        justify-content: center;
-    }
+    } 
 
-    .block {
-        flex: 1;
-        align-items: center;
-        justify-content: center;
+    .how-it {
+        background: linear-gradient(90deg, #7a3145 50%, #576f35 50%);
     }
 }
 
@@ -30,9 +32,9 @@
 
 
 .img-how {
+    background-color: #212121;
     border-radius: 30px;
-    max-width: 335px;
-    max-height: 452px;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -46,6 +48,7 @@
         max-height: 640px;
     }
 }
+
 @media screen and (min-width: 1280px) {
     .div-img-work {
         padding: 100px;
@@ -57,6 +60,10 @@
     }
 }
 
+
+
+
+/*інфа*/
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -71,30 +78,23 @@
     overflow: hidden;
 }
 
-
-
-
-/*інфа*/
-
 .div-infor-work {
     display: flex;
     flex-direction: column;
     background-color: #576f35;
     padding: 80px 20px;
-    max-width: 375px;
 }
 
 @media screen and (min-width: 768px) {
     .div-infor-work {
         padding: 100px 64px;
-        max-width: 440px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .div-infor-work {
         padding: 100px;
-        max-width: 440px;
+        max-width: 640px;
     }
 }
 
@@ -109,6 +109,12 @@
 @media screen and (min-width: 768px) {
     .div-descr-work {
         margin-bottom: 52px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .div-descr-work {
+        margin-bottom: 104px;
     }
 }
 
@@ -151,15 +157,24 @@
 }
 
 
-/*список*/
+/*список
 .div-list-work {
     display: flex;
     flex-direction: column;
-}
+}*/
 
 .list-work {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     list-style: none;
     counter-reset: step-counter;
+}
+
+@media screen and (min-width: 768px) {
+    .list-work {
+        gap: 24px;
+    }
 }
 
 .list-parag {
@@ -182,7 +197,7 @@
     color: #141414;
 }
 
-.list-work .items-work {
+.items-work {
     border-radius: 15px;
     padding: 12px 27px 12px 24px;
     height: 84px;
@@ -197,6 +212,13 @@
     counter-increment: step-counter;
     position: relative;
     padding-left: 111px;
+}
+
+@media only screen and (min-width: 768px) {
+    .items-work {
+        padding: 18px 15px 18px 100px;
+        max-height: 76px;
+    }
 }
 
 .list-work .items-work::before {
