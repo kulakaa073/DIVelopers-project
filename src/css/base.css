@@ -40,7 +40,7 @@ address {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -58,3 +58,35 @@ img {
   outline: 0;
   outline-offset: 0;
 }
+
+/*#region LOGO*/
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 168px;
+  height: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    gap: 9px;
+    width: 216px;
+    height: 20px;
+  }
+}
+.logo-icon {
+  fill: #fbfbfb;
+}
+@media only screen and (min-width: 768px) {
+  .logo-icon-shape {
+    width: 20px;
+    height: 20px;
+  }
+  .logo-icon-text {
+    width: 186.67px;
+    height: 16.67px;
+  }
+}
+
+/*#endregion LOGO */
