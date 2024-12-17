@@ -20,6 +20,11 @@
   color: #141414;
   margin-bottom: 20px;
 }
+@media (max-width: 320px) {
+  .response-title {
+    letter-spacing: -1px;
+  }
+}
 .span {
   color: #576f35;
 }
@@ -31,8 +36,8 @@
   margin-bottom: 40px;
 }
 .response-list {
-  margin-bottom: 40px;
   position: relative;
+  margin-bottom: 28px;
 }
 .response-item {
   border: 1px solid #d4bfc4;
@@ -66,7 +71,6 @@
 .dots {
   display: flex;
   justify-content: center;
-  margin-top: 28px;
   gap: 20px;
 }
 
@@ -105,8 +109,8 @@
   }
   .response-list {
     display: flex;
+    margin-bottom: 32px;
     gap: 24px;
-    margin-bottom: 44px;
   }
   .response-item {
     width: calc((100% - 24px) / 2);
