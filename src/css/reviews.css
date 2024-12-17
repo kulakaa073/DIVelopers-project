@@ -13,7 +13,7 @@
 
 .response-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 46px;
   line-height: 1.08;
   letter-spacing: -0.01em;
   text-transform: uppercase;
@@ -31,7 +31,6 @@
   margin-bottom: 40px;
 }
 .response-list {
-  margin-bottom: 40px;
   position: relative;
 }
 .response-item {
@@ -105,7 +104,6 @@
   .response-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 44px;
   }
   .response-item {
     width: calc((100% - 24px) / 2);
@@ -114,6 +112,9 @@
   .response-text-item {
     font-size: 16px;
     line-height: 1.25;
+  }
+  .dots {
+    margin-top: 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
