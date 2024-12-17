@@ -10,6 +10,22 @@
     padding-bottom: 100px;
   }
 }
+.order-text-box {
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .order-text-box {
+    padding-right: 64px;
+    margin-bottom: 52px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .order-text-box {
+    padding-right: 0;
+    max-width: 751px;
+  }
+}
 
 .order-title {
   font-weight: 600;
@@ -22,9 +38,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .order-text-box {
-    padding-right: 64px;
-  }
   .order-title {
     line-height: 1;
     margin-bottom: 24px;
@@ -32,10 +45,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .order-text-box {
-    padding-right: 0;
-    max-width: 751px;
-  }
   .order-title {
     font-size: 64px;
   }
@@ -48,13 +57,11 @@
   font-size: 14px;
   line-height: 1.42;
   color: #fbfbfb;
-  margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
   .order-text {
     font-size: 16px;
     line-height: 1.25;
-    margin-bottom: 52px;
   }
 }
 
@@ -178,6 +185,7 @@
 .form-textarea:hover {
   border: 1px solid #7a3145;
   outline: none;
+  cursor: pointer;
 }
 .form-input:not(:placeholder-shown):invalid {
   border: 1px solid #e74a3b;
@@ -200,6 +208,30 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  cursor: pointer;
+}
+
+.order-btn:focus,
+.order-btn:active {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+@media (hover: hover) {
+  .order-btn:hover {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .order-btn:hover,
+  .order-btn:focus {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+  .order-btn:active {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
 }
 
 .order-socials-wrapper {
@@ -246,7 +278,7 @@
   font-size: 14px;
   line-height: 1.42;
   color: #d4bfc4;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -276,4 +308,11 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+}
+
+.socials-link:focus,
+.socials-link:hover,
+.socials-link:active {
+  color: #d4bfc4;
+  cursor: pointer;
 }
