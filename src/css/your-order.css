@@ -211,17 +211,13 @@
   cursor: pointer;
 }
 
+.order-btn:hover,
 .order-btn:focus,
 .order-btn:active {
   background-color: #fbfbfb;
   color: #7a3145;
 }
-@media (hover: hover) {
-  .order-btn:hover {
-    background-color: #fbfbfb;
-    color: #7a3145;
-  }
-}
+
 @media only screen and (min-width: 1280px) {
   .order-btn:hover,
   .order-btn:focus {
