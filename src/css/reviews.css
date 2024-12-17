@@ -13,12 +13,17 @@
 
 .response-title {
   font-weight: 600;
-  font-size: 46px;
+  font-size: 48px;
   line-height: 1.08;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
   margin-bottom: 20px;
+}
+@media (max-width: 320px) {
+  .response-title {
+    letter-spacing: -1px;
+  }
 }
 .span {
   color: #576f35;
@@ -32,6 +37,7 @@
 }
 .response-list {
   position: relative;
+  margin-bottom: 28px;
 }
 .response-item {
   border: 1px solid #d4bfc4;
@@ -64,7 +70,6 @@
 .dots {
   display: flex;
   justify-content: center;
-  margin-top: 28px;
   gap: 20px;
 }
 
@@ -103,6 +108,7 @@
   }
   .response-list {
     display: flex;
+    margin-bottom: 32px;
     gap: 24px;
   }
   .response-item {
@@ -112,9 +118,6 @@
   .response-text-item {
     font-size: 16px;
     line-height: 1.25;
-  }
-  .dots {
-    margin-top: 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
