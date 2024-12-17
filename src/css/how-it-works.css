@@ -1,5 +1,18 @@
 .how-it {
     background: linear-gradient(180deg, #7a3145 50%, #576f35 50%);
+    padding: 40px 20px 80px 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .how-it {
+        padding: 100px 64px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .how-it {
+        padding: 100px;
+    }
 }
 
 .how-it .container {
@@ -27,7 +40,6 @@
     justify-content: center;
     align-items: center;
     background-color: #7a3145;
-    padding: 40px 20px;
 }
 
 
@@ -38,10 +50,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .div-img-work {
-        padding: 100px 64px;
-    }
-
     .img-how {
         width: 100%;
         max-width: 640px;
@@ -50,10 +58,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .div-img-work {
-        padding: 100px;
-    }
-
+    
     .img-how {
         max-width: 440px;
         max-height: 560px;
@@ -93,7 +98,6 @@
 
 @media screen and (min-width: 1280px) {
     .div-infor-work {
-        padding: 100px;
         max-width: 640px;
     }
 }
@@ -156,12 +160,6 @@
     }
 }
 
-
-/*список
-.div-list-work {
-    display: flex;
-    flex-direction: column;
-}*/
 
 .list-work {
     display: flex;
