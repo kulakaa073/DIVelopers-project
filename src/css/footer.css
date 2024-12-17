@@ -64,7 +64,8 @@
     color: #fbfbfb;
 }
 
-.nav-footer-link:active {
+.nav-footer-link:active,
+.nav-footer-link:focus {
     color: #d4bfc4;
 }
 
@@ -83,6 +84,7 @@
     color: #fbfbfb;
 }
 
+.contacts-link:active,
 .contacts-link:focus {
     color: #d4bfc4;
 }
@@ -106,6 +108,11 @@
     font-size: 14px;
     line-height: 1.43;
     color: #d4bfc4;
+}
+
+.privacy-policy-link:active,
+.privacy-policy-link:focus {
+    color: #fbfbfb;
 }
 
 .privacy-policy-span{
@@ -184,7 +191,7 @@ font-weight: 500;
              margin-right: 121px;
          }
 
-                 .nav-link:hover {
+                 .nav-footer-link:hover {
                      color: #d4bfc4;
                  }
 
@@ -203,6 +210,10 @@ font-weight: 500;
     .privacy-policy-cont {
     max-width: 1080px;
                 }
+
+        .privacy-policy-link:hover {
+            columns: #fbfbfb;
+        }
       
 }
 
