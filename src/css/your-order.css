@@ -214,20 +214,8 @@
 .order-btn:hover,
 .order-btn:focus,
 .order-btn:active {
-  background-color: #fbfbfb;
+  background-color: #d4bfc4;
   color: #7a3145;
-}
-
-@media only screen and (min-width: 1280px) {
-  .order-btn:hover,
-  .order-btn:focus {
-    background-color: #d4bfc4;
-    color: #7a3145;
-  }
-  .order-btn:active {
-    background-color: #fbfbfb;
-    color: #7a3145;
-  }
 }
 
 .order-socials-wrapper {
