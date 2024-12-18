@@ -60,6 +60,7 @@
 @media screen and (min-width: 1280px) {
     .div-img-work {
         padding-right: 100px;
+        padding-bottom: 0;
     }
     .img-how {
         max-width: 440px;
@@ -88,6 +89,7 @@
     .div-infor-work {
         max-width: 640px;
         padding-left: 100px;
+        padding-bottom: 0;
     }
 }
 
