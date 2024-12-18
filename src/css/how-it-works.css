@@ -1,38 +1,32 @@
 .how-it {
-    background: linear-gradient(180deg, #7a3145 50%, #576f35 50%);
+    background: linear-gradient(180deg, #7a3145 532px, #576f35 532px);
     padding: 40px 20px 80px 20px;
-}
-
-@media screen and (min-width: 768px) {
-    .how-it {
-        padding: 100px 64px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .how-it {
-        padding: 100px;
-    }
 }
 
 .how-it .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
 }
 
+@media screen and (min-width: 768px) {
+    .how-it {
+        background: linear-gradient(180deg, #7a3145 840px, #576f35 840px);
+        padding: 100px 64px;
+    }
+}
 
 @media screen and (min-width: 1280px) {
     .how-it .container {
         flex-direction: row;
-    } 
+    }
 
     .how-it {
         background: linear-gradient(90deg, #7a3145 50%, #576f35 50%);
+        padding: 100px;
     }
 }
-
-
 
 /*картинка*/
 .div-img-work {
@@ -41,7 +35,6 @@
     align-items: center;
     background-color: #7a3145;
 }
-
 
 .img-how {
     background-color: #212121;
@@ -58,36 +51,19 @@
 }
 
 @media screen and (min-width: 1280px) {
-    
     .img-how {
         max-width: 440px;
         max-height: 560px;
     }
 }
 
-
-
-
 /*інфа*/
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .div-infor-work {
     display: flex;
     flex-direction: column;
     background-color: #576f35;
-    padding: 80px 20px;
+    padding-top: 80px;
 }
 
 @media screen and (min-width: 768px) {
@@ -99,6 +75,8 @@
 @media screen and (min-width: 1280px) {
     .div-infor-work {
         max-width: 640px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -123,7 +101,7 @@
 }
 
 .header-work {
-    font-family: "Inter Tight", sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
     font-size: 28px;
     line-height: 100%;
@@ -137,19 +115,17 @@
     color: #d4bfc4;
 }
 
-.parag-work  {
+.parag-work {
     display: flex;
-    font-family: "Inter Tight", sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
     color: #fbfbfb;
 }
 
-
 @media screen and (min-width: 768px) {
-
-    .header-work {        
+    .header-work {
         font-size: 32px;
         margin-bottom: 24px;
     }
@@ -160,6 +136,7 @@
     }
 }
 
+/*список*/
 
 .list-work {
     display: flex;
@@ -177,7 +154,7 @@
 }
 
 .list-parag {
-    font-family: "Inter Tight", sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
@@ -199,7 +176,7 @@
 .items-work {
     border-radius: 15px;
     padding: 12px 27px 12px 24px;
-    max-height: 84px;
+    height: 84px;
     background: #fbfbfb;
 
     display: flex;
@@ -209,36 +186,35 @@
 
     counter-increment: step-counter;
     position: relative;
-    padding-left: 111px;
+    padding-left: 100px;
 }
 
 @media only screen and (min-width: 768px) {
     .items-work {
         padding: 18px 15px 18px 100px;
-        max-height: 76px;
+        height: 76px;
     }
 }
 
 .items-work::before {
-    content: counter(step-counter) "";
+    content: counter(step-counter) '';
     position: absolute;
     left: 24px;
     top: 50%;
     transform: translateY(-50%);
 
-    font-family: "Inter Tight", sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 111%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
- 
 
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid #D4BFC4;
+    border: 5px solid #d4bfc4;
     border-radius: 50%;
     background-color: #7a3145;
     width: 52px;
