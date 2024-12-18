@@ -1,0 +1,65 @@
+.adver {
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .adver {
+    padding: 100px 0;
+  }
+}
+
+.adver-txt {
+  font-family: Inter Tight, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  max-width: 335px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #141414;
+  text-transform: uppercase;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .adver-txt {
+    max-width: 704px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .adver-txt {
+    max-width: 1054px;
+    font-size: 76px;
+    line-height: 76px;
+  }
+}
+
+.acsent-adver {
+  background-color: #576f35;
+  color: #fbfbfb;
+  border-radius: 12px;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .acsent-adver {
+    display: inline-block;
+    padding: 20px 16px 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .acsent-adver {
+    text-align: left;
+    padding: 4px 16px;
+    margin-left: -16px;
+  }
+}

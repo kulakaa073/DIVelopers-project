@@ -1,0 +1,141 @@
+/* #region respons */
+
+.container {
+  padding: 0 20px;
+}
+.respons-second,
+.respons-third {
+  display: none;
+}
+.response {
+  padding: 80px 0;
+}
+
+.response-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 20px;
+}
+@media (max-width: 320px) {
+  .response-title {
+    letter-spacing: -1px;
+  }
+}
+.span {
+  color: #576f35;
+}
+.response-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #141414;
+  margin-bottom: 40px;
+}
+.response-list {
+  position: relative;
+  margin-bottom: 28px;
+}
+.response-item {
+  border: 1px solid #d4bfc4;
+  border-radius: 24px;
+  padding: 20px 16px;
+  background-color: #fbfbfb;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.respons-img {
+  margin: 0 auto 24px;
+  width: 56px;
+}
+.response-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #141414;
+  margin-bottom: 8px;
+}
+.response-text-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #858585;
+  max-width: 288px;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #d4bfc4;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #576f35;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+  .respons-second {
+    display: block;
+  }
+  .response {
+    padding: 100px 0;
+  }
+  .response-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 24px;
+    width: 553px;
+  }
+  .response-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 52px;
+    width: 553px;
+  }
+  .response-list {
+    display: flex;
+    margin-bottom: 32px;
+    gap: 24px;
+  }
+  .response-item {
+    width: calc((100% - 24px) / 2);
+    padding: 20px;
+  }
+  .response-text-item {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .container {
+    padding: 0 100px;
+  }
+  .respons-third {
+    display: block;
+  }
+  .response-list {
+    margin-bottom: 0;
+  }
+  .response-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .dots {
+    display: none;
+  }
+}
+/* #endregion */

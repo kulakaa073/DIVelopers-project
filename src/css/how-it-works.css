@@ -4,14 +4,7 @@
     padding-bottom: 80px;
 }
 
-.how-it .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-}
-
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .how-it {
         background: linear-gradient(180deg, #7a3145 840px, #576f35 840px);
         padding-top: 100px;
@@ -19,14 +12,15 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
-    .how-it .container {
-        flex-direction: row;
+@media only screen and (min-width: 1280px) {
+    .how-it-container {
+        display: flex;
+        align-items: center;
     }
 
-    .how-it {
-        background: linear-gradient(90deg, #7a3145 50%, #576f35 50%);
-    }
+  .how-it {
+    background: linear-gradient(90deg, #7a3145 50%, #576f35 50%);
+  }
 }
 
 /*картинка*/
@@ -39,22 +33,25 @@
 }
 
 .img-how {
-    background-color: #212121;
-    border-radius: 30px;
-    width: 100%;
+  background-color: #212121;
+  border-radius: 30px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-
+    .how-it .container {
+        padding: 0 64px;
+  }
+  
     .div-img-work {
         padding-bottom: 100px;
     }
 
-    .img-how {
-        width: 100%;
-        max-width: 640px;
-        max-height: 640px;
-    }
+  .img-how {
+    width: 100%;
+    max-width: 640px;
+    max-height: 640px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -79,42 +76,39 @@
 
 @media screen and (min-width: 768px) {
     .div-infor-work {
-        padding-top: 100px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding: 100px 100px 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .div-infor-work {
-        max-width: 640px;
+        max-width: 540px;
+        padding: 0;
         padding-left: 100px;
-        padding-bottom: 0;
     }
 }
 
 .div-descr-work {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-    .div-descr-work {
-        margin-bottom: 52px;
-    }
+  .div-descr-work {
+    margin-bottom: 52px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .div-descr-work {
-        margin-bottom: 104px;
-    }
+  .div-descr-work {
+    margin-bottom: 104px;
+  }
 }
 
 .header-work {
-    font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
     font-size: 28px;
     line-height: 100%;
@@ -125,12 +119,11 @@
 }
 
 .span-header-work {
-    color: #d4bfc4;
+  color: #d4bfc4;
 }
 
 .parag-work {
     display: flex;
-    font-family: 'Inter Tight', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
@@ -152,18 +145,18 @@
 /*список*/
 
 .list-work {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    list-style: none;
-    counter-reset: step-counter;
-    padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  counter-reset: step-counter;
+  padding-left: 0;
 }
 
 @media screen and (min-width: 768px) {
-    .list-work {
-        gap: 24px;
-    }
+  .list-work {
+    gap: 24px;
+  }
 }
 
 .list-parag {
@@ -175,15 +168,15 @@
 }
 
 @media screen and (min-width: 768px) {
-    .list-parag {
-        font-size: 16px;
-        line-height: 125%;
-    }
+  .list-parag {
+    font-size: 16px;
+    line-height: 125%;
+  }
 }
 
 .span-items {
-    font-weight: 700;
-    color: #141414;
+  font-weight: 700;
+  color: #141414;
 }
 
 .items-work {
@@ -216,7 +209,6 @@
     top: 50%;
     transform: translateY(-50%);
 
-    font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 111%;
