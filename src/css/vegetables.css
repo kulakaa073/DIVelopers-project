@@ -25,17 +25,16 @@
   color: #fbfbfb;
 }
 
-
-@media only screen and (max-width: 320px){
-    .vegetables-subject{
-        letter-spacing: -.025em;
-    }
+@media only screen and (max-width: 320px) {
+  .vegetables-subject {
+    letter-spacing: -0.025em;
+  }
 }
 
-@media only screen and (min-width: 768px){
-    .vegetables-subject{
-        max-width: 508px;
-        height: 128px;
+@media only screen and (min-width: 768px) {
+  .vegetables-subject {
+    max-width: 508px;
+    height: 128px;
 
     margin-bottom: 24px;
 
@@ -128,6 +127,7 @@
   font-size: 14px;
   line-height: 1.42857;
   color: #141414;
+  margin-bottom: 12px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -137,9 +137,8 @@
   }
 }
 
-.vegetables-picture {
-  padding-top: 12px;
-
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 1280px) {
+  .vegetables-price {
+    margin-bottom: 8px;
+  }
 }
